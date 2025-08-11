@@ -102,7 +102,7 @@ network.summary()
 
 # 모델 훈련
 network.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy'])
-epochs = 5 
+epochs = 3 
 
 network.fit(train_dataset, epochs=epochs)
 
